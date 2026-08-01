@@ -1,3 +1,16 @@
+/*
+Problem: 1. Two Sum
+Difficulty: Easy
+
+Approach:
+- Use two nested loops.
+- Check every pair.
+- Return the indices when the sum equals the target.
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+*/
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++) {
